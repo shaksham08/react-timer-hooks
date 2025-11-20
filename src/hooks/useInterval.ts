@@ -12,7 +12,7 @@ import { useEffect, useRef } from "react";
  */
 export const useInterval = (
   callback: () => void,
-  delay: number | null
+  delay: number | null = null
 ): void => {
   // Store the latest callback in a ref to avoid stale closures.
   // React re-renders update the ref, but the interval callback always reads from it.
@@ -25,7 +25,7 @@ export const useInterval = (
 
   // Setup interval
   useEffect(() => {
-    // If delay is null, do not start the interval.
+    // If delay is null or undefined, do not start the interval.
     // This allows pausing the interval declaratively.
     if (delay === null) return;
 
