@@ -1,1 +1,1 @@
-export * from "./hooks/useStopWatch";
+export * from "./hooks/useInterval";
