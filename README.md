@@ -1,6 +1,13 @@
-# ⏱️ React Timer Hooks
+<p align="center">
+  <img src="https://img.shields.io/npm/v/react-timer-hooks?color=%2364b5f6&style=for-the-badge" alt="npm version" />
+  <img src="https://img.shields.io/npm/dm/react-timer-hooks?color=%23ffca28&style=for-the-badge" alt="downloads" />
+  <img src="https://img.shields.io/bundlephobia/min/react-timer-hooks?color=%23ba68c8&style=for-the-badge" alt="bundle size" />
+  <img src="https://img.shields.io/npm/l/react-timer-hooks?color=%238bc34a&style=for-the-badge" alt="license" />
+</p>
 
-A lightweight, dependency-free collection of reusable React hooks for building time-based logic. Designed to be simple, reliable, TypeScript-friendly, and production-ready.
+<h1 align="center">⏱️ React Timer Hooks</h1>
+<p align="center">Modern, lightweight, dependency-free React hooks for time-based logic.</p>
+<p align="center">Stopwatch • Countdown • Interval • Timeout • Clock</p>
 
 ---
 
