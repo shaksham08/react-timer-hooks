@@ -1,0 +1,28 @@
+{
+  "name": "react-stopwatch-hook",
+  "version": "1.0.0",
+  "description": "A lightweight React hook that provides a fully functional stopwatch with start, pause, resume, and reset controls. Supports optional LocalStorage persistence and real-time catch-up after tab close. Zero dependencies, TypeScript ready, and easy to drop into any React project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaksham08/react-stopwatch-hook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaksham08/react-stopwatch-hook/issues"
+  },
+  "homepage": "https://github.com/shaksham08/react-stopwatch-hook#readme",
+  "dependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.6",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
