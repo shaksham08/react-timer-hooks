@@ -1,26 +1,40 @@
 {
   "name": "react-stopwatch-hook",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A lightweight React hook that provides a fully functional stopwatch with start, pause, resume, and reset controls. Supports optional LocalStorage persistence and real-time catch-up after tab close. Zero dependencies, TypeScript ready, and easy to drop into any React project.",
-  "main": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaksham08/react-stopwatch-hook.git"
+    "url": "git+https://github.com/shaksham08/react-timer-hooks.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "hooks",
+    "stopwatch",
+    "timer",
+    "useStopwatch",
+    "react-timer",
+    "react-hook"
+  ],
+  "author": "Shaksham Sinha",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shaksham08/react-stopwatch-hook/issues"
+    "url": "https://github.com/shaksham08/react-timer-hooks/issues"
   },
-  "homepage": "https://github.com/shaksham08/react-stopwatch-hook#readme",
-  "dependencies": {
-    "react": "^19.2.0"
+  "homepage": "https://github.com/shaksham08/react-timer-hooks#readme",
+  "peerDependencies": {
+    "react": ">=17"
   },
   "devDependencies": {
+    "react": "^19.2.0",
     "@types/react": "^19.2.6",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
