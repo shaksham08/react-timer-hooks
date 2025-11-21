@@ -59,8 +59,6 @@ This library includes a complete set of time-related hooks:
    A single-run delay hook, cleaned up automatically.
 5. **useClock**  
    A live ticking clock for dashboards or realtime UI.
-6. **usePersistentState (optional)**  
-   A lightweight persistence helper used internally by the timers.
 
 Together, these hooks create a small yet powerful time utility toolkit for React.
 
