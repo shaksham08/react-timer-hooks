@@ -59,5 +59,6 @@ export const useStopwatch = (initialValue: number = 0) => {
     start,
     pause,
     reset,
+    isRunning,
   };
 };
