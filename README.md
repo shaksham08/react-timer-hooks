@@ -9,6 +9,14 @@
 <p align="center">Modern, lightweight, dependency-free React hooks for time-based logic.</p>
 <p align="center">Stopwatch • Countdown • Interval • Timeout • Clock</p>
 
+<div align="center">
+
+### 📋 [**View Roadmap & Feature Details →**](./ROADMAP.md)
+
+_See planned features, release timeline, and contribution guidelines_
+
+</div>
+
 ---
 
 ## 🏆 Why React Timer Hooks?
